@@ -4,10 +4,6 @@
 .espacio-2{
 	margin:1%;
 }
-.espacio-3{
-	margin-left:32%;
-	margin-top:26%;
-}
 
 .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
@@ -57,9 +53,4 @@ li:hover{
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	background-color: #A00010;
-}
-.img-1{
-	background-image: url("../img/slider1.jpg");
-	background-size: cover;
-	height: 500px;
 }
