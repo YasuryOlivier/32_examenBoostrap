@@ -4,7 +4,12 @@
 .espacio-2{
 	margin:1%;
 }
-
+.espacio-3{
+ padding: 3%;
+}
+.bg-cliente{
+	background-image: url("../img/client-bg.jpg");
+}
 .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
       width: 70%;
