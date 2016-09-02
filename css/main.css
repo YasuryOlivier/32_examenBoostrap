@@ -4,8 +4,62 @@
 .espacio-2{
 	margin:1%;
 }
-a:hover{
+.espacio-3{
+	margin-left:32%;
+	margin-top:26%;
+}
+
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;}/*sección del carrusel*/
+
+.bg-gray{
+	background: #999999;
+}
+.bg-white{
+	background: white;
+}
+.borde-1{
+	border: solid 1px white;
+	display: inline-block;
+}
+.color-white{
+	color: white;
+}
+nav.navbar{/*Color del nav bar*/
+	background: #999999;
+}
+
+.navbar-default .navbar-brand {/*Color del titulo*/
+    color: black;
+    font-size: 200%;
+    font-family: 'Arial';
+}
+.navbar-default .navbar-nav > li > a { /*Color de links*/
+    color: black;
+    font-family: 'Arial';
+    font-size: 100%;
+}
+.navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/
+.navbar-default .navbar-nav > li > a:focus {
+    color:white;
+}
+.navbar-default .navbar-nav > .active > a, /*Fondo de links puntero sobre ellos*/
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: black;
+    background-color: gray;
+    font-family: 'Arial';
+}
+
+li:hover{
 	-webkit-transform: scale(1);
-	transform: scale(1)
-	background: red;
+	transform: scale(1);
+	background-color: #A00010;
+}
+.img-1{
+	background-image: url("../img/slider1.jpg");
+	background-size: cover;
+	height: 500px;
 }
